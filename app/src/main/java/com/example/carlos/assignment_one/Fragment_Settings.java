@@ -132,7 +132,7 @@ public class Fragment_Settings extends android.support.v4.app.Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-
+        Log.d("Fragment Settings", "--------onActivityResult---MainActivity----");
     }
 
 
@@ -263,8 +263,6 @@ public class Fragment_Settings extends android.support.v4.app.Fragment {
         super.onDetach();
         Log.d("Fragment Settings", "onDetach");
     }
-
-
 
 
 
